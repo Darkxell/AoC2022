@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.darkxell</groupId>
+  <artifactId>AoC2022</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Advent of code 2022</name>
+  <description>AoC 2022 answers, but it's actually good humanly readable java</description>
+</project>
