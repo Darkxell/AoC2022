@@ -14,6 +14,15 @@ import java.util.List;
 public abstract class DailySolution {
 
 	/**
+	 * Day of the advent calendar solved by this class implementation and instance.
+	 */
+	public final int day;
+
+	public DailySolution(int day) {
+		this.day = day;
+	}
+
+	/**
 	 * Returns a List of String containing the content of the input file, each list
 	 * entry being one line, in order. No web requests, files are locally hosted.
 	 * AoC inputs are always fairly short and will fit nicely in a String, but may
@@ -45,10 +54,18 @@ public abstract class DailySolution {
 	public void preProcess() {
 	}
 
-	/**Processes and returns the answer to part 1 of the daily problem.*/
+	/** Processes and returns the answer to part 1 of the daily problem. */
 	public abstract String getAnswerPart1();
 
-	/**Processes and returns the answer to part 2 of the daily problem. Will always be called after <code>getAnswerPart1()</code>*/
+	/**
+	 * Processes and returns the answer to part 2 of the daily problem. Will always
+	 * be called after <code>getAnswerPart1()</code>
+	 */
 	public abstract String getAnswerPart2();
+
+	@Override
+	public String toString() {
+		return "[ DAY " + day + " ]";
+	}
 
 }

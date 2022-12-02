@@ -1,17 +1,25 @@
 package fr.darkxell.aoc2022;
 
+import java.util.ArrayList;
+
 import fr.darkxell.aoc2022.solutions.DailySolution;
 import fr.darkxell.aoc2022.solutions.day1.Day1;
+import fr.darkxell.aoc2022.solutions.day2.Day2;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		DailySolution d1 = new Day1();
-		d1.preProcess();
-
-		System.out.println("Day 1 part 1 : " + d1.getAnswerPart1());
-		System.out.println("Day 1 part 2 : " + d1.getAnswerPart2());
+		ArrayList<DailySolution> problems = new ArrayList<DailySolution>(30);
+		problems.add(new Day1(1));
+		problems.add(new Day2(2));
+		
+		for (DailySolution d : problems) {
+			d.preProcess();
+			System.out.println(d);
+			System.out.println(d.getAnswerPart1());
+			System.out.println(d.getAnswerPart2());
+		}
 	}
 
 }

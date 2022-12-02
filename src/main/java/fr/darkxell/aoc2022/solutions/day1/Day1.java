@@ -16,9 +16,13 @@ public class Day1 extends DailySolution {
 
 	private ArrayList<Integer> processor = new ArrayList<Integer>();
 
+	public Day1(int day) {
+		super(day);
+	}
+
 	@Override
 	public void preProcess() {
-		List<String> textdata = getInput(1);
+		List<String> textdata = getInput(day);
 		data = new ArrayList<Integer>(textdata.size());
 		for (int i = 0; i < textdata.size(); i++)
 			data.add(textdata.get(i).length() == 0 ? -1 : Integer.parseInt(textdata.get(i)));
