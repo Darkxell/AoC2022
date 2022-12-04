@@ -19,20 +19,16 @@ public class Main {
 		problems.add(new Day4(4));
 
 		long start = System.currentTimeMillis();
-		
+
 		System.out.println("Welcome to advent of code! Pre processing the inputs and closing files asap...");
-		
-		for (DailySolution d : problems) {
+
+		for (DailySolution d : problems)
 			d.preProcess();
-		}
-		
+
 		System.out.println("Preprocessing complete. (" + (System.currentTimeMillis() - start) + "ms)");
-		
-		for (DailySolution d : problems) {	
-			System.out.println(d);
-			System.out.println(d.getAnswerPart1());
-			System.out.println(d.getAnswerPart2());
-		}
+
+		for (DailySolution d : problems)
+			d.computeAndPrint();
 	}
 
 }

@@ -68,4 +68,16 @@ public abstract class DailySolution {
 		return "[ DAY " + day + " ]";
 	}
 
+	/**
+	 * Computes this specific day of AoC, and prints the results to the console in a
+	 * human readable format.
+	 */
+	public void computeAndPrint() {
+		System.out.println(this);
+		long start = System.currentTimeMillis();
+		System.out.println(getAnswerPart1());
+		System.out.println(getAnswerPart2());
+		System.out.println(" -> " + (System.currentTimeMillis() - start) + "ms");
+	}
+
 }
