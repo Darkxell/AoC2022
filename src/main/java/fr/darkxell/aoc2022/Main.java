@@ -7,6 +7,7 @@ import fr.darkxell.aoc2022.solutions.day1.Day1;
 import fr.darkxell.aoc2022.solutions.day2.Day2;
 import fr.darkxell.aoc2022.solutions.day3.Day3;
 import fr.darkxell.aoc2022.solutions.day4.Day4;
+import fr.darkxell.aoc2022.solutions.day5.Day5;
 
 public class Main {
 
@@ -17,6 +18,7 @@ public class Main {
 		problems.add(new Day2(2));
 		problems.add(new Day3(3));
 		problems.add(new Day4(4));
+		problems.add(new Day5(5));
 
 		long start = System.currentTimeMillis();
 
