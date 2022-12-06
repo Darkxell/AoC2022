@@ -8,8 +8,15 @@ import fr.darkxell.aoc2022.solutions.day2.Day2;
 import fr.darkxell.aoc2022.solutions.day3.Day3;
 import fr.darkxell.aoc2022.solutions.day4.Day4;
 import fr.darkxell.aoc2022.solutions.day5.Day5;
+import fr.darkxell.aoc2022.solutions.day6.Day6;
 
 public class Main {
+
+	/**
+	 * Total computation time for AoC problems in this program instance. This number
+	 * is increased by each DailySolution when they finish.
+	 */
+	public static long TOTALCOMPUTATIONTIME = 0l;
 
 	public static void main(String[] args) {
 
@@ -19,6 +26,7 @@ public class Main {
 		problems.add(new Day3(3));
 		problems.add(new Day4(4));
 		problems.add(new Day5(5));
+		problems.add(new Day6(6));
 
 		long start = System.currentTimeMillis();
 
@@ -27,10 +35,14 @@ public class Main {
 		for (DailySolution d : problems)
 			d.preProcess();
 
-		System.out.println("Preprocessing complete. (" + (System.currentTimeMillis() - start) + "ms)");
+		long processingtime = System.currentTimeMillis() - start;
+		System.out.println("Preprocessing complete. (" + processingtime + "ms)");
 
 		for (DailySolution d : problems)
 			d.computeAndPrint();
+
+		System.out.println("Total computation times : " + TOTALCOMPUTATIONTIME + "ms ("
+				+ (TOTALCOMPUTATIONTIME + processingtime) + "ms including file pre processing)");
 	}
 
 }

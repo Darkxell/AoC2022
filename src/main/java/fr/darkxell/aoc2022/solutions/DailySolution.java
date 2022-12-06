@@ -7,6 +7,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+import fr.darkxell.aoc2022.Main;
+
 /**
  * Daily solution abstraction. Contains all the logic to solve a day of AoC,
  * from parsing the input data to outputting the solution in text format.
@@ -77,7 +79,9 @@ public abstract class DailySolution {
 		long start = System.currentTimeMillis();
 		System.out.println(getAnswerPart1());
 		System.out.println(getAnswerPart2());
-		System.out.println(" -> " + (System.currentTimeMillis() - start) + "ms");
+		long timelocale = System.currentTimeMillis() - start;
+		System.out.println(" -> " + timelocale + "ms");
+		Main.TOTALCOMPUTATIONTIME += timelocale;
 	}
 
 }
