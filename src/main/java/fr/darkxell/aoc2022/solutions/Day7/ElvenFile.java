@@ -61,6 +61,21 @@ public class ElvenFile {
 		return toreturn;
 	}
 
+	/** Returns the smallest directory size with a size above minsize */
+	public int part2Recursive(int smallest, int minsize) {
+		int localesize = size();
+		if (localesize < minsize || !isDir)
+			return Integer.MAX_VALUE;
+		if (localesize < smallest)
+			smallest = localesize;
+		for (ElvenFile sub : subDirs) {
+			int subsize = sub.part2Recursive(smallest, minsize);
+			if (subsize < smallest)
+				smallest = subsize;
+		}
+		return smallest;
+	}
+
 	@Override
 	public String toString() {
 		if (!isDir)

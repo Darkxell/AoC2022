@@ -59,13 +59,15 @@ public class Day7 extends DailySolution {
 		}
 		// Now that we build the hierarchy tree, it's trivial to answer the question by
 		// browsing it
-		CurrentLocation = Root;
-		return "Sum of total sizes of directories below 100000 : " + CurrentLocation.part1Recursive();
+		return "Sum of total sizes of directories below 100000 : " + Root.part1Recursive();
 	}
 
 	@Override
 	public String getAnswerPart2() {
-		return null;
+		int totaldiskspace = 70000000, needed = 30000000;
+		int currentUnused = totaldiskspace - Root.size();
+		int spacetofree = needed - currentUnused;
+		return "Smallest directory to remove : " + Root.part2Recursive(Integer.MAX_VALUE, spacetofree);
 	}
 
 }
