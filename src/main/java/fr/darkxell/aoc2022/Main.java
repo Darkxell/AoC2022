@@ -3,6 +3,7 @@ package fr.darkxell.aoc2022;
 import java.util.ArrayList;
 
 import fr.darkxell.aoc2022.solutions.DailySolution;
+import fr.darkxell.aoc2022.solutions.Day7.Day7;
 import fr.darkxell.aoc2022.solutions.day1.Day1;
 import fr.darkxell.aoc2022.solutions.day2.Day2;
 import fr.darkxell.aoc2022.solutions.day3.Day3;
@@ -27,6 +28,7 @@ public class Main {
 		problems.add(new Day4(4));
 		problems.add(new Day5(5));
 		problems.add(new Day6(6));
+		problems.add(new Day7(7));
 
 		long start = System.currentTimeMillis();
 

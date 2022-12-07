@@ -1,0 +1,96 @@
+[Aurabot aura effect Cheat sheet]
+
+ ----- LL early version -----
+ 
+PoIce, PoLightning, PoFire, Defiance banner, Discipline, Vitality 5, Determination, Grace, Clarity
+Smite(+49), Precision 1, Haste, Necro
+Aura effect % : +90
+
+// Total aurabot buffs:
+
++77% to all elemental resistances
++7% to all maximum elemental resistances
+45% increased armour and evasion rating
+Nearby enemies have 76% reduced critical strike chance
++412 to maximum energy shield
+57% increased Energy Shield Recharge rate
++3860 to armour
+93% more armour
++4892 to evasion rating
+55% more evasion rating
+Regenerate 41 Life per second
+regenerate 62 mana per second
+
+Adds 278 to 278 lightning damage
++176 to accuracy rating
+38% increased critical strike chance
+30% increased movement speed
+81% increased attack and cast speed
+
+ ----- LL MidBudget -----
+PoIce (+24), PoLightning (+24), PoFire, Grace 29, Discipline 29, Determination, Defiance banner, Vitality 3, Clarity 10 (+24)
+Smite (+39), Precision 1 (+24), Wrath (+39), Anger (+39), Haste 29, Necro
+Aura effect % : +150
+
+// Total aurabot buffs:
+
++117% to cold resistance
++13% to maximum cold resistance
++117% to lightning resistance
++13% to maximum lightning resistance
++107% to fire resistance
++12% to maximum fire resistance
++760 to maximum energy shield
+75% increased Energy Shield Recharge rate
++9955 to evasion rating
+85% more evasion rating
++5127 to armour
+122% more armour
+62% increased armour and evasion rating
+Nearby enemies have 104% reduced critical strike chance
+Regenerate 49 Life per second
+regenerate 52 mana per second
+
+Adds 718 to 718 lightning damage
+Adds 382 to 382 fire damage
++254 to accuracy rating
+54% increased critical strike chance
+40% increased movement speed
+130% increased attack and cast speed
+
+ ----- CI high budget -----
+Discipline 30, Grace 30, Divergent vitality 1, Anomalous Defiance banner, PoIce, PoFire, PoLightning, Divergent Determination, Clarity 7, Guardian
+Phantasmal Smite (+44), Wrath (+44), Divergent Anger (+44), Haste 30, Precision 1, Necro, Champion
+10 Stormblast mines
+Aura effect % : +200
+
+// Total aurabot buffs:
+
++132% to all elemental resistances
++15% to all maximum elemental resistances
+10% less damage taken
+90% increased Energy Shield Recharge rate
++12537 to evasion rating
+102% more evasion rating
++6153 to armour
+150% more armour
++42% physical damage reduction
+gain 15% of Evasion Rating as Extra Armour
+114% increased armour and evasion rating
+Nearby enemies have 120% reduced critical strike chance
+Regenerate 36 Life per second
+regenerate 48 mana per second
+
+Nearby enemies take 100% increased damage
+15% increased damage while on full life
+15% increased damage
+Adds 854 to 854 lightning damage
+Adds 454 to 454 fire damage
++279 to accuracy rating
+60% increased critical strike chance
+53% increased movement speed
+166% increased attack and cast speed
+
+
+
+
