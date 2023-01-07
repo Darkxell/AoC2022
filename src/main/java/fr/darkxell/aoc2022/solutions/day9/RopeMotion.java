@@ -1,4 +1,4 @@
-package fr.darkxell.aoc2022.solutionsDay9;
+package fr.darkxell.aoc2022.solutions.day9;
 
 public class RopeMotion {
 

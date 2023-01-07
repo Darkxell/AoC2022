@@ -1,4 +1,4 @@
-package fr.darkxell.aoc2022.solutionsDay9;
+package fr.darkxell.aoc2022.solutions.day9;
 
 /** A 2D position in discrete space, X/Y. */
 public class Pos {
