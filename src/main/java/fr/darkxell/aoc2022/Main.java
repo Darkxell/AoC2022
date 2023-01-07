@@ -1,13 +1,11 @@
 package fr.darkxell.aoc2022;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.TreeMap;
 
 import fr.darkxell.aoc2022.solutions.DailySolution;
 import fr.darkxell.aoc2022.solutions.Day7.Day7;
 import fr.darkxell.aoc2022.solutions.day1.Day1;
+import fr.darkxell.aoc2022.solutions.day10.Day10;
 import fr.darkxell.aoc2022.solutions.day2.Day2;
 import fr.darkxell.aoc2022.solutions.day3.Day3;
 import fr.darkxell.aoc2022.solutions.day4.Day4;
@@ -36,6 +34,7 @@ public class Main {
 		problems.add(new Day7(7));
 		problems.add(new Day8(8));
 		problems.add(new Day9(9));
+		problems.add(new Day10(10));
 
 		long start = System.currentTimeMillis();
 
@@ -52,8 +51,7 @@ public class Main {
 
 		System.out.println("Total computation times : " + TOTALCOMPUTATIONTIME + "ms ("
 				+ (TOTALCOMPUTATIONTIME + processingtime) + "ms including file pre processing)");
-	
+
 	}
-	
 
 }
